@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import '../modules/header.scss';
+$font-family: 'Montserrat', sans-serif;
+
+html {
+  font-size: 14px;
+  font-family: $font-family;
+}
+
+body {
+  margin: 0 auto;
+}
