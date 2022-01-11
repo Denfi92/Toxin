@@ -119,6 +119,120 @@
   background: #fff;
 }
 
+.hidden-title {
+  display: none;
+}
+
+.section-wrapper {
+  background: url("../images/bg.jpg") no-repeat;
+  background-position: bottom;
+  max-width: 1440px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.section-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+  max-width: 82.8rem;
+  padding: 70px 0 385px 0;
+}
+
+.section .search {
+  max-width: 320px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
+  padding: 40px 30px 30px;
+}
+
+.section .search-title {
+  font-size: 24px;
+  line-height: 29px;
+  margin: 0;
+}
+
+.section .date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 10px;
+}
+
+.section .date-departure {
+  margin-right: 0;
+}
+
+.section .date input {
+  width: 133px;
+  height: 40px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  border-radius: 4px;
+  padding: 1px 0 2px 15px;
+}
+
+.section .search-text {
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+}
+
+.section .person {
+  margin-top: 20px;
+}
+
+.section .person .search-person {
+  width: 304px;
+  height: 39px;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  border-radius: 4px;
+  padding: 1px 0 2px 14px;
+}
+
+.section .btn-search {
+  margin-top: 32px;
+  border: 2px solid #BC9CFF;
+  background-color: transparent;
+  border-radius: 22px;
+  text-transform: uppercase;
+  padding: 12px 92px 12px 89px;
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  background: -webkit-gradient(linear, left top, left bottom, from(#bc9cff), to(#8ba4f9));
+  background: linear-gradient(180deg, #bc9cff, #8ba4f9);
+  color: #fff;
+}
+
+.section .main-text {
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
+  text-align: right;
+  width: 260px;
+  position: relative;
+  top: 378px;
+  right: -7px;
+  line-height: 24px;
+}
+
 html {
   font-size: 14px;
   font-family: "Montserrat", sans-serif;

@@ -1,0 +1,20 @@
+section.section 
+  .section-wrapper
+    .section-container
+      h1.title.hidden-title Отель Toxin
+      .search 
+        h2.title.search-title Найдём номера под ваши пожелания
+        form.search-form 
+          .date
+            .date-arrival 
+              p.search-text Прибытие
+              input(value="дд.мм.гггг" readonly autocomplete="off" name="Прибытие").arrival
+            .date-departure 
+              p.search-text Выезд
+              input(value="дд.мм.гггг" readonly autocomplete="off" name="Выезд").departure
+          .person 
+            p.search-text Гости
+            input(value="Сколько гостей" readonly="" autocomplete="off" name="Гости").search-person
+          button.btn.btn-search Подобрать номер
+      .main-text 
+        p.main-text-content Лучшие номера для вашей работы, отдыха и просто вдохновения
